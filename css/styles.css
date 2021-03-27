@@ -18,37 +18,37 @@ body {
   position: relative;
 }
 
-.key[data-key="87"] {
+.key[data-key="KeyW"] {
   top: 18rem;
   left: 28rem;
 }
 
-.key[data-key="68"] {
+.key[data-key="KeyD"] {
   top: 25rem;
   left: 30rem;
 }
 
-.key[data-key="86"] {
+.key[data-key="KeyV"] {
   top: 40rem;
   left: 37rem;
 }
 
-.key[data-key="78"] {
+.key[data-key="KeyN"] {
   top: 23rem;
   left: 47rem;
 }
 
-.key[data-key="73"] {
+.key[data-key="KeyI"] {
   top: 2rem;
   left: 40rem;
 }
 
-.key[data-key="89"] {
+.key[data-key="KeyY"] {
   top: 10rem;
   right: 2rem;
 }
 
-.key[data-key="82"] {
+.key[data-key="KeyR"] {
   top: 10rem;
   left: 6rem;
 }
@@ -60,10 +60,4 @@ kbd {
   background-color: aqua;
   border-radius: 10px;
   position: relative;
-}
-
-.playing {
-  transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
 }

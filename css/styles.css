@@ -1,63 +1,35 @@
 body {
-  max-width: 1200px;
-  background-image: url("../drums-image.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: linear-gradient(318.32deg, #c3d1e4 0%, #dde7f3 55%, #d4e0ed 100%);
 }
 
 .keys {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .key {
-  margin: 1rem;
-  padding: 1rem 2rem;
-  position: relative;
+  margin: 0.5rem;
+  padding: 3rem 4rem;
+  border-radius: 1rem;
+  display: inline-block;
+  box-shadow: 4px 2px 16px rgba(136, 165, 191, 0.48), -4px -2px 16px #fff;
+  -webkit-tap-highlight-color: transparent;
+  transition: ease-in-out 0.2s;
 }
 
-.key[data-key="KeyW"] {
-  top: 18rem;
-  left: 28rem;
-}
-
-.key[data-key="KeyD"] {
-  top: 25rem;
-  left: 30rem;
-}
-
-.key[data-key="KeyV"] {
-  top: 40rem;
-  left: 37rem;
-}
-
-.key[data-key="KeyN"] {
-  top: 23rem;
-  left: 47rem;
-}
-
-.key[data-key="KeyI"] {
-  top: 2rem;
-  left: 40rem;
-}
-
-.key[data-key="KeyY"] {
-  top: 10rem;
-  right: 2rem;
-}
-
-.key[data-key="KeyR"] {
-  top: 10rem;
-  left: 6rem;
-}
-
-kbd {
-  color: black;
-  font-size: 2rem;
-  padding: 1rem 1.5rem;
-  background-color: aqua;
-  border-radius: 10px;
-  position: relative;
+.active {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  transform: scale(1);
+  box-shadow: inset 3px 3px 7px rgba(136, 165, 191, 0.48),
+    inset -3px -3px 7px #fff;
 }

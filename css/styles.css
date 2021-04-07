@@ -23,7 +23,7 @@ body {
   display: inline-block;
   box-shadow: 4px 2px 16px rgba(136, 165, 191, 0.48), -4px -2px 16px #fff;
   -webkit-tap-highlight-color: transparent;
-  transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.1s;
 }
 
 .active {
